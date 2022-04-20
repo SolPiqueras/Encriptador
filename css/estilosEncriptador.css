@@ -16,8 +16,8 @@ html {
 }
 
 .conteiner{
-    width: 60px;
-    height: 60px;
+    width: 60%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,13 +51,11 @@ html {
     min-height: 85%;
     background-color: transparent;
     border: none;
-    color: #0A3871;
     font-size: 2rem;
     resize: none;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding-top: 2rem 2rem;
 }
 
 .textarea{
@@ -71,7 +69,6 @@ html {
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    color: #0A3871;
     border: none;
 }
 
@@ -79,7 +76,7 @@ html {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-top: 13rem;
+    margin: 30% 10%;
 }
 
 .encriptar_btn{
@@ -88,7 +85,7 @@ html {
     height: 67px;
     left: 0px;
     top: 0px;
-    background: #0A3871;
+    background: #005499;
     border-radius: 24px;
     flex: none;
     order: 0;
@@ -97,10 +94,12 @@ html {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+    
+    border: 1px solid #201a6d;
 }
 
 .desencriptar_btn{
@@ -120,7 +119,7 @@ html {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     text-align: center;
     color: #201a6d;
@@ -144,7 +143,7 @@ html {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     text-align: center;
     color: #201a6d;
