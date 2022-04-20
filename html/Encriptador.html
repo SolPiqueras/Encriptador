@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" type="text/css" href="../Encriptador/estilosEncriptador.css">
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><img src="logo1.png">Encriptando tus secretos</a>
+        </div>
+    </header>
+
+    <div id="texto">
+        <form id="ingresarTexto">
+            <div class="textarea">
+                <textarea name="textarea" id="textarea" cols="25" rows="5"
+                    placeholder="Ingresa el texto aquí..."></textarea>
+            </div>
+            <div class=buttons>
+                <button class="encriptar_btn" onclick="codificar()" id="encriptar_btn">Encriptar</button>
+                <button class="desencriptar_btn" id="desencriptar_btn">Desencriptar</button>
+            </div>
+        </form>
+    </div>
+
+
+        <div class="resultado" id="resultado">
+            <div class="noEncontrado" id="ocultar">
+                <img src="noEncontrado.png">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresar el texto a encriptar o desencriptar</p>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+
+        <div class="contBotones">
+            <button class="copiar_btn" id="copiar">Copiar</button>
+        </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© Derechos reservados.</p>
+            <p>Creado por Sol Piqueras</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="../Encriptador/javascript.js"></script>
+</body>
+
+</html>
